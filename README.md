@@ -38,3 +38,8 @@ git clone https://github.com/Limour-dev/ds100.git
 conda create -n ds100py conda-forge::pandas conda-forge::matplotlib conda-forge::seaborn conda-forge::plotly conda-forge::ipykernel conda-forge::nbformat
 conda run -n ds100py python -m ipykernel install --user --name ds100py
 ```
+## R
+```bash
+conda create -n ds100r conda-forge::r-tidyverse conda-forge::r-irkernel
+conda run -n ds100r Rscript -e "IRkernel::installspec(name='ds100r', displayname='ds100r')"
+```
