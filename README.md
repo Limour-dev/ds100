@@ -35,6 +35,6 @@ git clone https://github.com/Limour-dev/ds100.git
 ```
 ## python
 ```bash
-conda create -n ds100py conda-forge::pandas conda-forge::matplotlib conda-forge::seaborn conda-forge::ipykernel
+conda create -n ds100py conda-forge::pandas conda-forge::matplotlib conda-forge::seaborn conda-forge::plotly conda-forge::ipykernel conda-forge::nbformat
 conda run -n ds100py python -m ipykernel install --user --name ds100py
 ```
