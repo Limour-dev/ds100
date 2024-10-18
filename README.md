@@ -42,4 +42,5 @@ conda run -n ds100py python -m ipykernel install --user --name ds100py
 ```bash
 conda create -n ds100r conda-forge::r-tidyverse conda-forge::r-irkernel
 conda run -n ds100r Rscript -e "IRkernel::installspec(name='ds100r', displayname='ds100r')"
+conda install -n ds100r conda-forge::r-ggpubr
 ```
